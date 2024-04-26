@@ -1,0 +1,69 @@
+.card {
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff; /* Background color */
+  color: #fff;
+  font-size: 24px;
+  padding: 15px 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Background color */
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838; /* Change hover color */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px; /* qator pastida bo'shliq qoldirish */
+  text-align: center; /* Matn o'rta qatorga chiqarish */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}

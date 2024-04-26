@@ -1,0 +1,79 @@
+.dsf{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+select {
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.container {
+  position: relative;
+  padding: 20px;
+}
+
+.dsf {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-icon {
+  display: none;
+}
+.dsfDiv{
+  display: flex;
+  width: 100%;
+}
+.menu-dropdown {
+display: none;
+}
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .dsf {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+
+  .menu-dropdown {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    align-content: center;
+  }
+
+  .menu-dropdown select {
+    margin: 5px 0;
+  }
+  .dsfDiv{
+    display: none;
+  }
+  .btnOffset{
+    width: 10px;
+  }
+}
